@@ -2,6 +2,7 @@
 
 body {
 	background: url(images/scribble_light.png);
+	font-family: Helvetica;
 }
 
 .btn-primary {
@@ -21,6 +22,8 @@ body {
 
 .label-info {
 	background-color: #ff64a1;
+	border-radius: 100px;
+	box-shadow: 2px 2px 4px black;
 	color: #800C39;
 }
 
@@ -104,9 +107,10 @@ nav #menuToggle span:after {
 nav #menuToggle span:after { top: 250%; }
  
 nav a:nth-child(n+2) {
-  color: white;
+  color: #ff64a1;
   display: block;
-  font-size: 2.5em;
+  font-size: 1.75em;
+  font-family: Helvetica;
   margin: 30px 0 30px 30px;
 }
  
