@@ -23,7 +23,7 @@ body {
 .label-info {
 	background-color: #ff64a1;
 	border-radius: 100px;
-	box-shadow: 2px 2px 4px black;
+	box-shadow: 1px 1px 2px black;
 	color: #800C39;
 }
 
@@ -33,18 +33,16 @@ body {
 }
 
 .btn-primary {
-	color: #fff;
-	background-color: black;
-	border-color: black;
+	color: white;
+	background-color: #cc125c;
+	border-color: #cc125c;
 	margin-bottom: 20px;
 }
 
-.bs-sidebar.affix {
-  width: 100px;
-  margin-left: -100px;
-  margin-top: -50px;
-  position: fixed;
-  height: 100%;
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #ff64a1;
+  border-color: #ff64a1;
 }
 
 a { text-decoration: none; }
